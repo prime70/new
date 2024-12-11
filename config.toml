@@ -64,14 +64,14 @@ max_party_size = 9
 # Options here are 'ffa' (free-for-all), 'teams' and 'coop'
 # (cooperative) This value is ignored if you supply a playlist_code
 # (see below).
-#session_type = "ffa"
+session_type = "teams"
 
 # Playlist-code for teams or free-for-all mode sessions.
 # To host your own custom playlists, use the 'share' functionality in the
 # playlist editor in the regular version of the game.
 # This will give you a numeric code you can enter here to host that
 # playlist.
-playlist_code = 12345
+playlist_code = 490170
 
 # Alternately, you can embed playlist data here instead of using
 # codes. Make sure to set session_type to the correct type for the
@@ -80,11 +80,11 @@ playlist_code = 12345
 
 # Whether to shuffle the playlist or play its games in designated
 # order.
-#playlist_shuffle = true
+playlist_shuffle = true
 
 # If true, keeps team sizes equal by disallowing joining the largest
 # team (teams mode only).
-#auto_balance_teams = true
+auto_balance_teams = true
 
 # The campaign used when in co-op session mode. Do
 # print(ba.app.campaigns) to see available campaign names.
@@ -106,7 +106,7 @@ playlist_code = 12345
 
 # Series length in teams mode (7 == 'best-of-7' series; a team must
 # get 4 wins)
-teams_series_length = 7
+teams_series_length = 4
 
 # Points to win in free-for-all mode (Points are awarded per game based on
 # performance)
@@ -120,7 +120,7 @@ ffa_series_length = 24
 # currently-signed-in account's id. To fetch info about an account,
 # your back-end server can use the following url:
 # https://legacy.ballistica.net/accountquery?id=ACCOUNT_ID_HERE
-stats_url = "https://discord.gg/ucyaesh"
+stats_url = "https://discord.gg/z4X5FnyHda"
 
 # If present, the server subprocess will attempt to gracefully exit
 # after this amount of time. A graceful exit can occur at the end of
@@ -128,7 +128,7 @@ stats_url = "https://discord.gg/ucyaesh"
 # auto-restart (the default) will then spin up a fresh subprocess.
 # This mechanism can be useful to clear out any memory leaks or
 # other accumulated bad state in the server subprocess.
-#clean_exit_minutes = 60
+clean_exit_minutes = 60
 
 # If present, the server subprocess will shut down immediately after
 # this amount of time. This can be useful as a fallback for
@@ -143,18 +143,18 @@ stats_url = "https://discord.gg/ucyaesh"
 #idle_exit_minutes = 20
 
 # Should the tutorial be shown at the beginning of games?
-#show_tutorial = false
+show_tutorial = false
 
 # Team names (teams mode only).
-team_names = ["ladoo", "barfi"]
+team_names = ["PRIME", "SLASH"]
 
 # Team colors (teams mode only).
-team_colors = [[0.8, 0.0, 0.6], [0, 1, 0.8]]
+team_colors = [[1, 0, 0], [1, 1, 1]]
 
 # Whether to enable the queue where players can line up before
 # entering your server. Disabling this can be used as a workaround
 # to deal with queue spamming attacks.
-#enable_queue = true
+enable_queue = true
 
 # Protocol version we host with. Currently the default is 33 which
 # still allows older 1.4 game clients to connect. Explicitly setting
@@ -165,4 +165,4 @@ team_colors = [[0.8, 0.0, 0.6], [0, 1, 0.8]]
 # How many seconds individual players from a given account must wait
 # before rejoining the game. This can help suppress exploits
 # involving leaving and rejoining or switching teams rapidly.
-#player_rejoin_cooldown = 10.0
+player_rejoin_cooldown = 0
