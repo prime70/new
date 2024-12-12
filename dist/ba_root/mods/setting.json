@@ -3,15 +3,15 @@
   "ChatCommands": {
     "BrodcastCommand": true
   },
-  "HostDeviceName": "v1.4",
-  "HostName": "BCS",
+  "HostDeviceName": "PSv1.4",
+  "HostName": "PRIME",
   "KickVoteMsgType": "chat",
   "ScoreScreenAnnouncement": {
     "enable": true,
     "msg": [
       "click stats button to join discord",
-      "watch hey smoothy youtube channel",
-      "downlaod new mods from discord"
+      "Rank 1 gets admin and rank 2 and 3 gets vip at the end of the season",
+      "Respect Everyone "
     ]
   },
   "ShowKickVoteStarterName": true,
@@ -67,25 +67,25 @@
   },
   "elPatronPowerups": {
     "Quantity": {
-      "Curse": 1,
-      "Fire Bombs": 3,
-      "Fly Bombs": 3,
-      "Goodbye": 2,
+      "Curse": 0,
+      "Fire Bombs": 0,
+      "Fly Bombs": 0,
+      "Goodbye": 0,
       "Healing Damage": 1,
-      "Health": 1,
+      "Health": 3,
       "Ice Bombs": 3,
-      "Ice Man": 1,
-      "Impact Bombs": 3,
-      "Impairment Bombs": 2,
-      "Mine Bombs": 2,
-      "Punch": 3,
-      "Shield": 2,
-      "Speed": 2,
+      "Ice Man": 0,
+      "Impact Bombs": 5,
+      "Impairment Bombs": 0,
+      "Mine Bombs": 4,
+      "Punch": 0,
+      "Shield": 0,
+      "Speed": 0,
       "Sticky Bombs": 3,
-      "Tank Shield": 1,
+      "Tank Shield": 0,
       "Triple": 3
     },
-    "enable": false,
+    "enable": true,
     "settings": {
       "Healing Damage PTG": 72,
       "Powers Gravity": true,
@@ -93,30 +93,30 @@
       "Powerup Scale": 1,
       "Powerup Style": "Auto",
       "Powerup Time": false,
-      "Powerup With Shield": true,
+      "Powerup With Shield": false,
       "Powerups": {
-        "Curse": 1,
-        "Fire Bombs": 3,
-        "Fly Bombs": 3,
-        "Goodbye": 2,
+        "Curse": 0,
+        "Fire Bombs": 0,
+        "Fly Bombs": 0,
+        "Goodbye": 0,
         "Healing Damage": 1,
-        "Health": 1,
+        "Health": 2,
         "Ice Bombs": 3,
-        "Ice Man": 1,
-        "Impact Bombs": 3,
-        "Impairment Bombs": 2,
-        "Mine Bombs": 2,
-        "Punch": 3,
-        "Shield": 2,
-        "Speed": 2,
+        "Ice Man": 0,
+        "Impact Bombs": 5,
+        "Impairment Bombs": 0,
+        "Mine Bombs": 3,
+        "Punch": 0,
+        "Shield": 0,
+        "Speed": 0,
         "Sticky Bombs": 3,
-        "Tank Shield": 1,
+        "Tank Shield": 0,
         "Triple": 3
       },
       "Tank Shield PTG": 96
     }
   },
-  "enableHitTexts": true,
+  "enableHitTexts": false,
   "enableTagAnimation": true,
   "enableTop5effects": true,
   "enableeffects": true,
@@ -141,7 +141,7 @@
   "playermod": {
     "default_bomb": "normal",
     "default_bomb_count": 1,
-    "default_boxing_gloves": true,
+    "default_boxing_gloves": false,
     "default_shield": false
   },
   "playlists": {
@@ -153,11 +153,11 @@
     "soccer": 412160,
     "team": 12345
   },
-  "regularWelcomeMsg": "Welcome Back",
+  "regularWelcomeMsg": "Welcome Back to our server",
   "sameCharacterForTeam": false,
   "statsResetAfterDays": 31,
   "textonmap": {
-    "bottom left watermark": "Owner : <owner-name> \nEditor : <bablu>\nScripts : BCS1.7.13",
+    "bottom left watermark": "Owner : PRIME AND GT \nEditor : PRIME ",
     "center highlights": {
       "color": [
         1,
@@ -168,7 +168,7 @@
         "type end to start end vote",
         "start msg with prefix .(dot) to send in game popup msg",
         "start msg with prefix ,(comma) to send msg to teammates",
-        "BombSquad Community Server - BCS"
+        "JOIN DISCORD BY CLICKING STATS BUTTON"
       ],
       "randomColor": true
     },
